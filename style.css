@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5dc;
+    padding: 20px;
+    color: #333;
+}
+
+#app {
+    max-width: 800px;
+    margin: auto;
+}
+
+.enigme {
+    border: 1px solid #ccc;
+    background: #fff8dc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.solved {
+    background-color: #ccffcc;
+}
+
+.incorrect {
+    border: 1px solid red;
+}
+
+.correct {
+    border: 1px solid green;
+}
